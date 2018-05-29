@@ -237,4 +237,15 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 768;
+    }
+  }
+
+  @media screen and (max-width:640px) {
+    .container {
+      max-width: 640;
+    }
+  }
   
