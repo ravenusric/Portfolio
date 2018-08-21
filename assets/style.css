@@ -1,5 +1,5 @@
 body {
-    font-family:'Barlow Condensed', sans-serif;
+    font-family: 'Aclonica', sans-serif;
     font-size: 18px;
     line-height: 34px;
     color: #777;
@@ -13,7 +13,6 @@ body {
   
   /* sticky footer styling */
   
-  /* https://css-tricks.com/snippets/css/sticky-footer/ */
   
   html,
   body {
@@ -73,9 +72,13 @@ body {
     margin-bottom: 0;
     font:color whitesmoke;
   }
+
+  .WorkP {
+    color:whitesmoke;
+    
+  }
   
-  h1,
-  h2,
+  
   h3 {
     font-family: Georgia, Times, "Times New Roman", serif;
     font-weight: 700;
@@ -83,6 +86,7 @@ body {
   }
   
   h1 {
+    font-family: 'Aclonica', sans-serif;
     padding-bottom: 20px;
     font-size: 30px;
     line-height: 49px;
@@ -112,7 +116,7 @@ body {
     float: left;
     width: 250px;
     height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: 'Aclonica', sans-serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
@@ -121,6 +125,7 @@ body {
     text-decoration: none;
     background-image:url("../assets/images/dark-grunge-background-scratches-35548038.jpg");
   }
+  
   
   nav {
     float: right;
@@ -169,11 +174,19 @@ body {
   
   h3,
   .sidebar h2 {
+    clear: both;
+    font-family: 'Aclonica', sans-serif;
+    background-color: whitesmoke;
     padding-bottom: 20px;
     margin-bottom: 15px;
     line-height: 22px;
     border-bottom: 2px solid #eee;
     background-image: url("../assets/images/dark-grunge-background-scratches-35548038.jpg");
+  }
+
+  .Sideh2 {
+    font-family: 'Aclonica', sans-serif;
+    background-color: whitesmoke;
   }
   
   .social {
@@ -184,7 +197,7 @@ body {
   }
   
   .social:last-child {
-    margin-right: 0;
+    margin-right: 35px;
   }
   
   /* main */
@@ -204,45 +217,7 @@ body {
     color: whitesmoke;
   }
   
-  /* contact page */
-  
-  #contact-form ul {
-    margin-bottom: 20px;
-  }
-  
-  #contact-form li {
-    margin-bottom: 10px;
-  }
-  
-  label,
-  input[type=text],
-  input[type=email],
-  textarea {
-    display: block;
-    width: 100%;
-  }
-  
-  input[type=text],
-  input[type=email],
-  textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #ddd;
-  }
-  
-  textarea {
-    height: 200px;
-  }
-  
-  input[type=submit] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #fff;
-    cursor: pointer;
-    background: #040808;
-    border: 0 none;
-  }
+ 
   @media screen and (max-width: 768px) {
     .container {
       max-width: 768;
